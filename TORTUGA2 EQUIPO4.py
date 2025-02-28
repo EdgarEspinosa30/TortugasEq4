@@ -5,7 +5,7 @@ t2.pensize(10)
 
 t2.penup()
 t2.color("magenta")
-t2.goto(-200,0)
+t2.goto(-400,0)
 t2.pendown()
 t2.forward(50)
 t2.speed(2)
