@@ -1,14 +1,16 @@
-import turtle
-t3 = turtle.Turtle()
-t3.speed(1)
+from turtle import *
+t3=Turtle()
+t3.speed(10)
 t3.color("blue")
+t3.penup()
 t3.goto(-400,-100)
+t3.pendown()
 def dibujar_cuadrado():
     for _ in range(4):
         t3.forward(50)
         t3.right(90)
 def mover_figura():
-    for _ in range(8): 
+    for _ in range(10): 
         dibujar_cuadrado()
         t3.penup()
         t3.forward(70)
