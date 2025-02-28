@@ -1,0 +1,155 @@
+from turtle import *
+
+t1=Turtle()
+
+t1.pensize(5)
+t1.speed(5) 
+t1.color("pink")
+t1.penup()
+t1.goto(-200,100)
+t1.pendown()
+t1.forward(60)
+
+#estrella
+for _ in range(5):
+    t1.fillcolor("pink")
+    t1.begin_fill()
+    t1.speed(5) 
+    t1.color("pink")
+    
+    t1.forward(120)  
+    t1.right(144)
+    t1.forward(120)
+    t1.end_fill()
+    t1.fillcolor("pink")
+    t1.begin_fill()
+    
+t1.pensize(5)
+t1.speed(5) 
+t1.color("cyan")
+t1.penup()
+t1.goto(-150,100)
+t1.pendown()
+t1.forward(50)
+
+   
+for _ in range(5):
+        t1.fillcolor("cyan")
+        t1.begin_fill()
+        t1.speed(5)
+        t1.color("cyan")
+        
+        t1.forward(100) 
+        t1.right(144)
+        t1.forward(100)
+        t1.end_fill()
+        t1.fillcolor("cyan")
+        t1.begin_fill()
+        
+
+t1.pensize(5)
+t1.speed(5) 
+t1.color("purple")
+t1.penup()
+t1.goto(-100,100)
+t1.pendown()
+t1.forward(50)
+
+for _ in range(5):
+        t1.fillcolor("purple")
+        t1.begin_fill()
+        t1.speed(5)
+        t1.color("purple")
+        
+        t1.forward(80)  
+        t1.right(144)
+        t1.forward(80)
+        t1.end_fill()
+        t1.fillcolor("purple")
+        t1.begin_fill()
+        
+t1.pensize(5)
+t1.speed(5) 
+t1.color("pink")
+t1.penup()
+t1.goto(-50,100)
+t1.pendown()
+t1.forward(50)
+
+for _ in range(5):
+        t1.fillcolor("pink")
+        t1.begin_fill()
+        t1.speed(5)
+        t1.color("pink")
+        
+        t1.forward(60)  
+        t1.right(144)
+        t1.forward(60)
+        t1.end_fill()
+        t1.fillcolor("pink")
+        t1.begin_fill()
+        
+t1.pensize(5)
+t1.speed(5) 
+t1.color("cyan")
+t1.penup()
+t1.goto(-0,100)
+t1.pendown()
+t1.forward(50)
+
+for _ in range(5):
+        t1.fillcolor("cyan")
+        t1.begin_fill()
+        t1.speed(5)
+        t1.color("cyan")
+        
+        t1.forward(40)  
+        t1.right(144)
+        t1.forward(40)
+        t1.end_fill()
+        t1.fillcolor("cyan")
+        t1.begin_fill()
+        
+        
+t1.pensize(5)
+t1.speed(5) 
+t1.color("purple")
+t1.penup()
+t1.goto(50,100)
+t1.pendown()
+t1.forward(50)
+
+for _ in range(5):
+        t1.fillcolor("purple")
+        t1.begin_fill()
+        t1.speed(5)
+        t1.color("purple")
+        
+        t1.forward(20)  
+        t1.right(144)
+        t1.forward(20)
+        t1.end_fill()
+        t1.fillcolor("purple")
+        t1.begin_fill()
+        
+        
+t1.pensize(5)
+t1.speed(5) 
+t1.color("pink")
+t1.penup()
+t1.goto(100,100)
+t1.pendown()
+t1.forward(50)
+
+for _ in range(5):
+        t1.fillcolor("pink")
+        t1.begin_fill()
+        t1.speed(5)
+        t1.color("pink")
+        
+        t1.forward(10)  
+        t1.right(144)
+        t1.forward(10)
+        t1.end_fill()
+        t1.fillcolor("pink")
+        t1.begin_fill()
